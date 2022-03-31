@@ -12,6 +12,10 @@ public interface Shape {
 
     //Default
     default void defaultTest() {
-        System.out.println("I am a default method in the shape interface implementation!");
+        System.out.println("Default Test");
+    }
+
+    default void defaultTest1(){
+        System.out.println("Default Test 1");
     }
 }
